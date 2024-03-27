@@ -18,9 +18,12 @@ Analysis:
   use_species_presence_model: true 
 
 Data:
-  # input: example/soundscape.wav
-  # output: example
-
+  Recording: 
+    sample_rate: 48000
+    output_folder: ~/iSparrow_data
+    length_s: 3 
+    channels: 1
+    mode: "record"
   Preprocessor: 
     sample_rate: 48000
     overlap: 0.0
